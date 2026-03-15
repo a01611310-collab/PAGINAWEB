@@ -1,0 +1,114 @@
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Mi línea del tiempo</title>
+
+    <!-- Estilos CSS internos -->
+    <style>
+
+        /* Estilo general del cuerpo de la página */
+        body{
+            background-color:#f4f7fb; /* Color de fondo suave */
+            font-family: Arial, Helvetica, sans-serif; /* Tipografía agradable y legible */
+            margin:0;
+            padding:0;
+            text-align:center;
+            color:#333;
+        }
+
+        /* Contenedor principal para limitar el ancho del contenido */
+        .contenedor{
+            width:90%;
+            max-width:1000px;
+            margin:auto;
+            padding:20px;
+        }
+
+        /* Estilo del título principal */
+        h1{
+            color:#2c3e50;
+            margin-top:30px;
+        }
+
+        /* Estilo del enlace externo */
+        a{
+            color:#1a73e8;
+            text-decoration:none;
+            font-weight:bold; /* Texto en negritas */
+        }
+
+        /* Cambia el estilo cuando el mouse pasa sobre el enlace */
+        a:hover{
+            text-decoration:underline;
+        }
+
+        /* Estilo de la imagen */
+        img{
+            margin:20px 0;
+            border-radius:10px; /* Bordes redondeados */
+            max-width:100%;
+        }
+
+        /* Estilo del texto introductorio */
+        .intro{
+            font-size:18px;
+        }
+
+        /* Estilo del footer al final de la página */
+        footer{
+            margin-top:40px;
+            padding:20px;
+            background:#e9eef5;
+            font-style:italic; /* Texto en itálicas */
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Contenedor principal del contenido -->
+    <div class="contenedor">
+
+        <!-- Título principal de la página -->
+        <h1>Mi línea del tiempo</h1>
+
+        <!-- Texto introductorio con algunas palabras en negritas e itálicas -->
+        <p class="intro">
+            Esta es una pequeña página de ejemplo que muestra una 
+            <strong>línea del tiempo interactiva</strong> creada con TimelineJS.
+            También incluye una imagen aleatoria y un <em>enlace externo</em>.
+        </p>
+
+        <!-- Enlace externo que abre en una nueva pestaña -->
+        <p>
+            Visita este sitio:
+            <a href="https://reviewsindh.pubpub.org/" target="_blank">
+                Reviews in Digital Humanities
+            </a>
+        </p>
+
+        <!-- Imagen aleatoria de Picsum -->
+        <!-- Picsum es un servicio que genera imágenes aleatorias para pruebas -->
+        <img src="https://picsum.photos/800/400" alt="Imagen aleatoria de ejemplo">
+
+        <!-- Línea del tiempo embebida usando TimelineJS -->
+        <!-- Este iframe muestra una línea del tiempo interactiva -->
+        <iframe
+src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vTYILM48o8IomBf_FjXEi72QuScaQXrxL1rSpdI-7Jl_ppAnUZ4DIEdNEHMpfAzYPV70TG5MQNEZiLf&font=Default&lang=en&initial_zoom=2&width=100%25&height=650" width="100%" height="650" frameborder="0"></iframe>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        Creado por ChatGPT. y Eugenia Rodriguez.
+    </footer>
+
+</body>
+
+</html>
